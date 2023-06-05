@@ -14,6 +14,7 @@ Imports:
     ggplot2,
     magrittr,
     readr,
+    tibble,
     tidyr,
     utils
 Suggests: 
