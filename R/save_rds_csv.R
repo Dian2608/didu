@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' # data <- read_excel_data("path/to/data.xlsx", "Sheet1")
+#' # data <- save_rds_csv("data", "my_data")
 
 save_rds_csv <- function(data, file_name) {
   # Save as .rds
