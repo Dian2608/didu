@@ -10,9 +10,11 @@
 #'
 #' @examples
 #' # data <- read_csv_tibble("path/to/your/file.csv")
+#'
+#' @import utils
 
 read_csv_tibble <- function(file_path) {
   data <- read_csv(file_path)
-  tibble(data)
+  as.tibble(data)
 }
 
