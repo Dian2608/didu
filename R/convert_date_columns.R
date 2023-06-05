@@ -13,6 +13,7 @@
 #' # modified_data <- convert_date_columns(data, "date")
 #'
 #' @import utils
+#' @import tidyr
 
 convert_date_columns <- function(data, date_column) {
   data <- data %>% separate({{ date_column }}, into = c("year", "month", "day"))
