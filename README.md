@@ -7,11 +7,11 @@
 <!-- badges: end -->
 
 Didu is an R package with four simple functions. The functions are: <br>
-\* ‘convert_date_columns’ <br> \* ‘plotting’ <br> \* ‘read_csv_tibble’
-<br> \* ‘save_rds_csv’ <br>
+\* `convert_date_columns` <br> \* `plotting` <br> \* `read_csv_tibble`
+<br> \* `save_rds_csv` <br>
 
-The package also consists of 2 datasets named ‘dengue_data’ and
-‘flu_data’. These datasets will help with a quick start and introduction
+The package also consists of 2 datasets named `dengue_data` and
+`flu_data`. These datasets will help with a quick start and introduction
 to the functions in the didu package.
 
 ## Installation
@@ -30,7 +30,7 @@ devtools::install_github("Dian2608/didu")
 
 ## read_csv_tibble
 
-With the ‘read_csv_tibble’ function it is possible to read a .csv file
+With the `read_csv_tibble` function it is possible to read a .csv file
 from your folder into R. The function also makes a tibble of the data.
 In the code chunk below the usage of the function is demonstrated.
 
@@ -39,19 +39,19 @@ In the code chunk below the usage of the function is demonstrated.
 
 ## convert_date_columns
 
-With the ‘convert_date_columns’ function it is possible to convert
+With the `convert_date_columns` function it is possible to convert
 columns with the yy/mm/dd format to three separate columns. These three
 columns will be named “year”, “month” and “day”. The function also
 changes the data class of the three new columns to numeric. In the chunk
 below, the function is demonstrated with the dengue_data that comes with
-the ‘didu’ package.
+the `didu` package.
 
 
     convert_date_columns(tidy_dengue, date_column = "Date")
 
 ## plotting
 
-The ‘plotting’ function is able to plot data with a matching group
+The `plotting` function is able to plot data with a matching group
 variable. It is also possible to determine the title of the plot. In the
 code chunk below the usage of this function is demonstrated.
 
@@ -60,7 +60,7 @@ code chunk below the usage of this function is demonstrated.
 
 ## save_rds_csv
 
-The ‘save_rds_csv’ function can be used to save a dataframe as .rds and
+The `save_rds_csv` function can be used to save a dataframe as .rds and
 .csv file. In the code chunk below the usage of the function is
 demonstrated.
 
