@@ -6,9 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Didu is an R package with four simple functions. The functions are: <br>
-\* `convert_date_columns` <br> \* `plotting` <br> \* `read_csv_tibble`
-<br> \* `save_rds_csv` <br>
+Didu is an R package with four simple functions. The functions are:
+<br> - `convert_date_columns` <br> - `plotting` <br> - `read_csv_tibble`
+<br> - `save_rds_csv` <br>
 
 The package also consists of 2 datasets named `dengue_data` and
 `flu_data`. These datasets will help with a quick start and introduction
