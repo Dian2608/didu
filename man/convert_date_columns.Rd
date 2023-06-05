@@ -20,4 +20,5 @@ format to separate columns named year, month and date.
 }
 \examples{
 # modified_data <- convert_date_columns(data, "date")
+
 }

@@ -18,4 +18,5 @@ it into a tibble
 }
 \examples{
 # data <- read_csv_tibble("path/to/your/file.csv")
+
 }
