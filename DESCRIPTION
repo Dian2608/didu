@@ -1,0 +1,16 @@
+Package: didu
+Title: Starting with import and visualisation of data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Dian", "Dupon", , "dian@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A set of four functions to make the import of .csv files a bit easier. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    ggplot2,
+    magrittr,
+    readr,
+    utils
