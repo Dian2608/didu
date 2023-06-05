@@ -18,5 +18,5 @@ your data in .rds and .csv files
 This function can be used to save your data as an .rds or .csv file
 }
 \examples{
-# data <- read_excel_data("path/to/data.xlsx", "Sheet1")
+# data <- save_rds_csv("data", "my_data")
 }

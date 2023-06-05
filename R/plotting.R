@@ -16,6 +16,7 @@
 #'
 #' @import ggplot2
 #' @import readr
+#' @import dplyr
 
 plotting <- function(data, x_var, y_var, group_var, title) {
   plot_data <- data %>%
