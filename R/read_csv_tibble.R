@@ -12,9 +12,10 @@
 #' # data <- read_csv_tibble("path/to/your/file.csv")
 #'
 #' @import utils
+#' @import tibble
 
 read_csv_tibble <- function(file_path) {
   data <- read_csv(file_path)
-  as.tibble(data)
+  as_tibble(data)
 }
 

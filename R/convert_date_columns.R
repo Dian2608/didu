@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' # modified_data <- convert_date_columns(data, "date")
+#' # modified_data <- convert_date_columns(data, date_column = "column")
 #'
 #' @import utils
 #' @import tidyr

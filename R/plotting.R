@@ -12,7 +12,7 @@
 #' @export
 #'
 #' @examples
-#' # plotting(joined_data, year, searches_flu, continent, "Flu occurrences for each continent")
+#' # plotting(data = joined_data, year, searches_flu, continent, "Flu occurrences for each continent")
 #'
 #' @import ggplot2
 #' @import readr
