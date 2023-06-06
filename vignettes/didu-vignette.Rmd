@@ -42,7 +42,7 @@ With the `read_csv_tibble` function it is possible to read a .csv file from your
 
 ```
 
-data_dengue <- read_csv_tibble("./data/dengue_data.csv")
+data_dengue <- read_csv_tibble("./data/tidy_dengue.csv")
 
 ```
 
@@ -51,7 +51,7 @@ With the `convert_date_columns` function it is possible to convert columns with 
 
 ```
 
-convert_date_columns(tidy_dengue, date_column = "Date")
+dengue <- convert_date_columns(tidy_dengue, date_column = "Date")
 
 ```
 
@@ -59,7 +59,7 @@ convert_date_columns(tidy_dengue, date_column = "Date")
 The `plotting` function is able to plot data with a matching group variable. It is also possible to determine the title of the plot. In the code chunk below the usage of this function is demonstrated.
 ```
 
-plotting(data = tidy_dengue, year, searches_flu, continent, "Dengue fever occurrences for each continent")
+plotting(data = dengue, year, searches_flu, continent, "Dengue fever occurrences for each continent")
 
 ```
 
