@@ -24,6 +24,6 @@ a plot of your data with x-axis, y-axis, group variable and title
 This function can be used to make a plot of occurrences with a group variable
 }
 \examples{
-# plotting(joined_data, year, searches_flu, continent, "Flu occurrences for each continent")
+# plotting(data = joined_data, year, searches_flu, continent, "Flu occurrences for each continent")
 
 }

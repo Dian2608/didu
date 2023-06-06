@@ -21,5 +21,10 @@ convert_date_columns <- function(data, date_column) {
   data$year <- as.numeric(data$year)
   data$month <- as.numeric(data$month)
   data$day <- as.numeric(data$day)
+
+  return(data)  # Return the modified data object
 }
+
+
+
 

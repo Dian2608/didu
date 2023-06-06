@@ -19,6 +19,6 @@ This function can be used to convert a date column with the yy/mm/dd
 format to separate columns named year, month and date.
 }
 \examples{
-# modified_data <- convert_date_columns(data, "date")
+# modified_data <- convert_date_columns(data, date_column = "column")
 
 }
