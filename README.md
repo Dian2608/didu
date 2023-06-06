@@ -10,9 +10,9 @@ Didu is an R package with four simple functions. The functions are:
 <br> - `convert_date_columns` <br> - `plotting` <br> - `read_csv_tibble`
 <br> - `save_rds_csv` <br>
 
-The package also consists of 2 datasets named `dengue_data` and
-`flu_data`. These datasets will help with a quick start and introduction
-to the functions in the didu package.
+The package also consists of 2 datasets named `tidy_dengue` and
+`dengue_flu`. These datasets will help with a quick start and
+introduction to the functions in the didu package.
 
 ## Installation
 
@@ -48,7 +48,7 @@ columns with the yy/mm/dd format to three separate columns. These three
 columns will be named “year”, “month” and “day”. The function also
 changes the data class of the three new columns to numeric. In the chunk
 below, the function is demonstrated with the dengue_data that comes with
-the `didu` package.
+the didu package.
 
 ``` r
 
