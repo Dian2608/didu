@@ -35,7 +35,7 @@ from your folder into R. The function also makes a tibble of the data.
 In the code chunk below the usage of the function is demonstrated.
 
 
-    data_dengue <- read_csv_tibble("./data/dengue_data.csv")
+    data_dengue <- read_csv_tibble("./data/tidy_dengue.csv")
 
 ## convert_date_columns
 
@@ -47,7 +47,7 @@ below, the function is demonstrated with the dengue_data that comes with
 the `didu` package.
 
 
-    convert_date_columns(tidy_dengue, date_column = "Date")
+    dengue <- convert_date_columns(tidy_dengue, date_column = "Date")
 
 ## plotting
 
@@ -56,7 +56,7 @@ variable. It is also possible to determine the title of the plot. In the
 code chunk below the usage of this function is demonstrated.
 
 
-    plotting(data = tidy_dengue, year, searches_flu, continent, "Dengue fever occurrences for each continent")
+    plotting(data = dengue, year, searches_flu, continent, "Dengue fever occurrences for each continent")
 
 ## save_rds_csv
 
