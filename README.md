@@ -10,9 +10,7 @@ Didu is an R package with four simple functions. The functions are:
 <br> - `convert_date_columns` <br> - `plotting` <br> - `read_csv_tibble`
 <br> - `save_rds_csv` <br>
 
-The package also consists of 2 datasets named `tidy_dengue` and
-`dengue_flu`. These datasets will help with a quick start and
-introduction to the functions in the didu package.
+The package also consists of 3 datasets named `data_dengue.csv`, `tidy_dengue.csv` and `dengue_flu.csv`. These datasets will help with a quick start and introduction to the functions in the didu package. 
 
 ## Installation
 
@@ -38,7 +36,7 @@ In the code chunk below the usage of the function is demonstrated.
 
 ``` r
 
-data_dengue <- read_csv_tibble("./data/tidy_dengue.csv")
+data_dengue <- read_csv_tibble("./data/data_dengue.csv")
 ```
 
 ## convert_date_columns
