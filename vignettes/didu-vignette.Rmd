@@ -20,7 +20,7 @@ Didu is an R package with four simple functions. The functions are: <br>
 - `read_csv_tibble` <br>
 - `save_rds_csv` <br>
 
-The package also consists of 2 datasets named `dengue_data` and `flu_data`. These datasets will help with a quick start and introduction to the functions in the didu package.   
+The package also consists of 3 datasets named `data_dengue.csv`, `tidy_dengue.csv` and `dengue_flu.csv`. These datasets will help with a quick start and introduction to the functions in the didu package. 
 
 ## Installation
 
@@ -42,7 +42,7 @@ With the `read_csv_tibble` function it is possible to read a .csv file from your
 
 ```{r function 1, warning=FALSE, message=FALSE}
 
-data_dengue <- read_csv_tibble("./data/tidy_dengue.csv")
+data_dengue <- read_csv_tibble("./data/data_dengue.csv")
 
 ```
 
